@@ -1,0 +1,25 @@
+# Requiere Python 3.11 (PyTorch todavia no publica wheels estables para 3.14).
+#   py -3.11 -m venv .venv
+#   .venv\Scripts\activate
+#   pip install -r requirements.txt
+#
+# Versiones pineadas a lo que resolvio y se verifico funcionando en julio 2026.
+
+# Deep learning
+torch==2.13.0
+torchvision==0.28.0
+
+# Datos: cliente del broker ALeRCE + manejo de imagenes astronomicas
+alerce==2.3.0
+astropy==8.0.1
+
+# Cientifico / analisis
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.9.0
+matplotlib==3.11.0
+tqdm==4.68.4
+
+# Notebooks (EDA)
+jupyter==1.1.1
+ipykernel==7.3.0
