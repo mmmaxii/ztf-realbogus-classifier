@@ -1,0 +1,33 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Datos: solo se versiona el script que los descarga, nunca los datos crudos
+data/raw/
+data/processed/
+*.npy
+*.npz
+*.h5
+*.fits
+
+# Modelos y experimentos
+checkpoints/
+*.pt
+*.pth
+mlruns/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Entorno / editor / OS
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
